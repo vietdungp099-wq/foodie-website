@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">Foodie Store</div>
+        <nav>
+            <a href="#menu">Menu</a>
+            <a href="#about">Giới thiệu</a>
+            <a href="#contact">Liên hệ</a>
+        </nav>
+    </header>
+
+    <!-- HERO (Banner) -->
+    <section class="hero">
+        <img src="https://png.pngtree.com/thumb_back/fh260/background/20210908/pngtree-retail-convenience-store-store-department-store-merchandise-display-snacks-real-shots-image_825870.jpg" 
+             alt="Banner cửa hàng" class="banner-img">
+
+        <div class="hero-text">
+            <h1>Đồ ăn nhẹ – Ngon – Nhanh – Tiện lợi</h1>
+            <p>Snack, bánh, nước đóng chai với giá siêu hời. Giao nhanh trong 30 phút!</p>
+            <a href="#menu" class="btn">Mua ngay</a>
+        </div>
+    </section>
+
+    <!-- MENU -->
+    <section id="menu" class="menu">
+        <h2>Menu Hôm Nay</h2>
+        <div class="grid">
+
+            <!-- SNACK -->
+            <div class="item">
+                <img src="https://vn-test-11.slatic.net/p/93da7e0384c7da93c95c20f3ced4aec0.jpg" alt="Snack">
+                <h3>Snack Giòn</h3>
+                <p>Snack giòn rụm thơm ngon.</p>
+                <span>15.000đ</span>
+            </div>
+
+            <!-- BÁNH NGỌT -->
+            <div class="item">
+                <img src="https://anhquanbakery.com/uploads/article/nhung-loai-banh-ngot-noi-tieng-tren-the-gioi-1591093362.jpg" alt="Bánh ngọt">
+                <h3>Bánh Ngọt</h3>
+                <p>Bánh mềm, béo nhẹ, thơm ngon.</p>
+                <span>25.000đ</span>
+            </div>
+
+            <!-- NƯỚC UỐNG -->
+            <div class="item">
+                <img src="https://cdn.tgdd.vn/Files/2018/01/08/1057204/diem-tru-cac-san-pham-nuoc-ep-trai-cay-dong-chai3_800x400.jpg" alt="Nước uống">
+                <h3>Nước Uống</h3>
+                <p>Nước trái cây đóng chai mát lạnh.</p>
+                <span>16.000đ</span>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+        <h2>Về Chúng Tôi</h2>
+        <p>Foodie Store mang đến những món ăn nhẹ chất lượng, sạch, ngon với giá hợp lý. Phù hợp cho học sinh, sinh viên và dân văn phòng.</p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <h2>Liên hệ</h2>
+        <p>Inbox Facebook: <strong>FoodieStore</strong></p>
+        <p>Zalo: <strong>0123 456 789</strong></p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        © 2025 Foodie Store – All rights reserved.
+    </footer>
+
+</body>
+</html>
+
